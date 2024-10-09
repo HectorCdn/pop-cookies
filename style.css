@@ -31,7 +31,7 @@
 .green {
     height: 300px;
     width: 300px;
-    background-color: green;
+    background-color: lime;
     border-radius: 12px;
     position: relative;
     bottom: -30px;
@@ -57,17 +57,28 @@
 }
 
 .row {
-    gap: 0px 20px;
+    gap: 0px 50px;
     display: flex;
     flex-direction: row;
 }
 
 .ref {
-    color: aqua;
-    border: ;
+    cursor: pointer;
+    color: blue;
+    border: solid blue 2px;
     border-radius: 12px;
+    padding: 5px 20px;
+    background-color: white;
 }
 
+.acc {
+    cursor: pointer;
+    color: white;
+    border: solid blue 2px;
+    border-radius: 12px;
+    padding: 5px 20px;
+    background-color: blue;
+}
 
 
 
